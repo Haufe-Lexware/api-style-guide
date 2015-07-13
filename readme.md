@@ -30,10 +30,10 @@ The covered chapters are:
 - [API design best practices](api-design-best-practices.md)
 - [REST principles](rest-principles.md)
 - [URI Components](uri-components.md)
-- HTTP Verbs
-- Hypermedia and REST 
-- Resources
-- Relationships and Sub-Resources
+- [HTTP Verbs](http-verbs.md)
+- [Hypermedia and REST](hypermedia-and-rest.md) 
+- [Resources](resources.md)
+- [Relationships and Sub-Resources](relationships-and-sub-resources.md)
 - Collection Resources
 	- Resource naming 
 	- Get List of resources
