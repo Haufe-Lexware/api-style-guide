@@ -64,7 +64,7 @@ HAL response format
 
 ####HTTP Status
 
-If the collection is empty (0 items in response), '404 Not Found' is not appropriate. The corresponding array should just be empty, and collection metadata fields provided (e.g. '"total_count": 0'). Invalid query parameter values can result in 400 Bad Request. Otherwise '200 OK' is utilized for a successful response.
+If the collection is empty (0 items in response), `404 Not Found` is not appropriate. The corresponding array should just be empty, and collection metadata fields provided (e.g. `"total_count": 0`). Invalid query parameter values can result in 400 Bad Request. Otherwise `200 OK` is utilized for a successful response.
 
 ###Read Single Resource
 
@@ -99,7 +99,7 @@ In scenarios where this data might be used as a subordinate to other data, immut
 
 #####HTTP Status
 
-If the provided resource identifier is not found, responds '404 Not Found' HTTP status. Otherwise, '200 OK' HTTP status should be utilized when data is found.
+If the provided resource identifier is not found, responds `404 Not Found` HTTP status. Otherwise, `200 OK` HTTP status should be utilized when data is found.
 
 ###Update Single Ressource
 
@@ -121,13 +121,13 @@ Updates a single resource. The shape of the PUT request should maintain parity w
 
 #####HTTP Status
 
-Any failed request validation responds 400 Bad Request HTTP status. If clients attempt to modify read-only fields, this is also a '400 Bad Request'.
+Any failed request validation responds `400 Bad Request` HTTP status. If clients attempt to modify read-only fields, this is also a `400 Bad Request`.
 
 If there are business rules (more than data type/length/etc), it is best to provide a specific error code & message (in addition to the 400) for that validation.
 
-For situations which require interaction with APIs or processes outside of the current request, the '422' status code is appropriate.
+For situations which require interaction with APIs or processes outside of the current request, the `422` status code is appropriate.
 
-After successful update, PUT operations should respond with '204 No Content' status, with no response body.
+After successful update, PUT operations should respond with `204 No Content` status, with no response body.
 
 ###Update Partial Single Resource
 

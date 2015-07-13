@@ -34,23 +34,23 @@ The covered chapters are:
 - [Hypermedia and REST](hypermedia-and-rest.md) 
 - [Resources](resources.md)
 - [Relationships and Sub-Resources](relationships-and-sub-resources.md)
-- Collection Resources
-	- Resource naming 
-	- Get List of resources
-	- Read Single Resource
-	- Update Single Ressource 
-	- Update Partial Single Resource
-	- Delete Single Resource 
-	- Create New Resource 
-	- Create New Resource - Consumer Supplied Identifier 
-- Filtering, sorting, field selectiion and paging
-- Response Format
-- Type Formatting
-- Security and Authentication
-- Search
-- Documentation
-- Error handling
-- HTTP Status Codes
-- Caching
-- Further Resources
+- [Collection Resources](collection-resources.md)
+	- [Resource naming](collection-resources.md#resource naming) 
+	- [Get List of resources](collection-resources.md#Get List of resources)
+	- [Read Single Resource](collection-resources.md)
+	- [Update Single Ressource](collection-resources.md)
+	- [Update Partial Single Resource](collection-resources.md)
+	- [Delete Single Resource](collection-resources.md)
+	- [Create New Resource](collection-resources.md)
+	- [Create New Resource - Consumer Supplied Identifier](collection-resources.md) 
+- [Filtering, sorting, field selection and paging](filtering-sorting-field-selectiion-and-paging.md)
+- [Response Format](response-format.md)
+- [Type Formatting](type-formatting.md)
+- [Security and Authentication](security-and-authentication.md)
+- [Search](search.md)
+- [Documentation](documentation.md)
+- [Error handling](error-handling.md)
+- [HTTP Status Codes](http-status-codes.md)
+- [Caching](caching.md)
+- [Further Resources](further-resources.md)
 
