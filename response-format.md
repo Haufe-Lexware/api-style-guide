@@ -134,7 +134,7 @@ Currently there is no existing implementation in one of our projects/products ba
 Therefore we don't want to recommend one over the other without more experience.
 
 
-	:information_source: Please give us feedback when you choose one of them for your API to close the gap.
+> :information_source: Please give us feedback when you choose one of them for your API to close the gap.
  
 
  

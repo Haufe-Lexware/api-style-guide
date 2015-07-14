@@ -183,7 +183,7 @@ Deletes a single resource. In order to enable retries (typically patchy connecti
 
 Creates a new resource in the collection. Request body may be somewhat different than GET/PUT response/request (typically fewer fields as the server will generate some values).
 
-In most cases, the API server produces an identifier for the resource. In cases where identifier is supplied by the API consumer, use [Create New Resource - Consumer Supplied Identifier](#Create New Resource - Consumer Supplied Identifier) below.
+In most cases, the API server produces an identifier for the resource. In cases where identifier is supplied by the API consumer, use [Create New Resource - Consumer Supplied Identifier](#create-new-resource---consumer-supplied-identifier) below.
 
 Once the POST has successfully completed, a new resource will be created. The identifier for this resource should be added to the resource collection URI.
 
@@ -217,6 +217,6 @@ Note that server-generated values are not provided in the request.
 
 When an API consumer defines the resource identifier, the PUT verb should be utilized, as the operation is idempotent, even during creation.
 
-The same interaction as  [Create New Resource](#Create New Resource) is used here. 201 + response body on resource creation, and 204 + no response body when an existing resource is updated.
+The same interaction as  [Create New Resource](#create-new-resource) is used here. 201 + response body on resource creation, and 204 + no response body when an existing resource is updated.
 
  

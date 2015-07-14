@@ -22,7 +22,7 @@ My resources are listed under [Further Resources](further-resources.md). Special
 
 The style guide is work in progress. We’d love your feedback – whether you agree, disagree, or have some additional practices and tips to add.
 
-	:bulb: Please contribute! 
+	Please contribute! 
  
 
 The covered chapters are:
@@ -37,12 +37,12 @@ The covered chapters are:
 - [Collection Resources](collection-resources.md)
 	- [Resource naming](collection-resources.md#resource-naming) 
 	- [Get List of resources](collection-resources.md#get-list-of-resources)
-	- [Read Single Resource](collection-resources.md)
-	- [Update Single Ressource](collection-resources.md)
-	- [Update Partial Single Resource](collection-resources.md)
-	- [Delete Single Resource](collection-resources.md)
-	- [Create New Resource](collection-resources.md)
-	- [Create New Resource - Consumer Supplied Identifier](collection-resources.md) 
+	- [Read Single Resource](collection-resources.md#read-single-resources)
+	- [Update Single Ressource](collection-resources.md#update-single-ressource)
+	- [Update Partial Single Resource](collection-resources.md#update-partial-single-resource)
+	- [Delete Single Resource](collection-resources.md#delete-single-resource)
+	- [Create New Resource](collection-resources.md#create-new-resource)
+	- [Create New Resource - Consumer Supplied Identifier](collection-resources.md#create-new-resource---consumer-supplied-identifier) 
 - [Filtering, sorting, field selection and paging](filtering-sorting-field-selectiion-and-paging.md)
 - [Response Format](response-format.md)
 - [Type Formatting](type-formatting.md)
