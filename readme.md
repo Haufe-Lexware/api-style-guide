@@ -22,7 +22,7 @@ My resources are listed under [Further Resources](further-resources.md). Special
 
 The style guide is work in progress. We’d love your feedback – whether you agree, disagree, or have some additional practices and tips to add.
 
-	Please contribute! 
+	:bulb: Please contribute! 
  
 
 The covered chapters are:
@@ -35,8 +35,8 @@ The covered chapters are:
 - [Resources](resources.md)
 - [Relationships and Sub-Resources](relationships-and-sub-resources.md)
 - [Collection Resources](collection-resources.md)
-	- [Resource naming](collection-resources.md#resource naming) 
-	- [Get List of resources](collection-resources.md#Get List of resources)
+	- [Resource naming](collection-resources.md#resource-naming) 
+	- [Get List of resources](collection-resources.md#get-list-of-resources)
 	- [Read Single Resource](collection-resources.md)
 	- [Update Single Ressource](collection-resources.md)
 	- [Update Partial Single Resource](collection-resources.md)

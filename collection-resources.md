@@ -1,5 +1,5 @@
 ##Collection Resources
-A list of all of the given resources, including any related metadata. Array of resources should be in the items field. Fields like 'total_items' and 'total_pages' help provide context to paged results. Consistent naming of collection resource fields allow API clients to create generic handling for using the provided data across various resource collections.
+A list of all of the given resources, including any related metadata. Array of resources should be in the `_embedded` field. Fields like `total_items` and `total_pages` help provide context to paged results. Consistent naming of collection resource fields allow API clients to create generic handling for using the provided data across various resource collections.
 
 The GET verb should not effect the system, and should not change response on subsequent requests (unless the underlying data changes), i.e. it should be idempotent. Exceptions to 'changing the system' are typically instrumentation/logging-related.
 
