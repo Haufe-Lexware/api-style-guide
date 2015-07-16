@@ -7,7 +7,7 @@ A boolean is represented with **true** or **false**.
 
 Use [**ISO 8601**](http://en.wikipedia.org/wiki/ISO_8601) format for passing in and out dates and times. Use [**UTC**](https://en.wikipedia.org/wiki/UTC) as timezone.
 
-|Date|2015-07-02| 
+|Date|2015-07-02|
 |Combined date and time in [**UTC**](https://en.wikipedia.org/wiki/UTC)|2015-07-02T14:47:47Z|
  
 
