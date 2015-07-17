@@ -1,6 +1,6 @@
 ### Support Hypermedia
 
-All our REST APIs MUST support hypermedia. Refer to [Hypermedia and REST](hypermedia-and-rest.md) for a detailed explanatiion.
+All our REST APIs MUST support hypermedia. Refer to [Hypermedia and REST](hypermedia-and-rest.md) for a detailed explanation.
 
 ### Use RESTful URLs and actions
 
@@ -37,7 +37,7 @@ The level of abstraction depends on your scenario. You also want to expose a man
 
 ### Use sub-resources for Relations
 
-Use sub-ressources for related ressources. Limit the nesting to one sub-ressource.
+Use sub-resources for related resources. Limit the nesting to one sub-resource.
 
 ### Resource naming
 
