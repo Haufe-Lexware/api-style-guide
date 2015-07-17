@@ -3,6 +3,7 @@
 ## Introduction
 
 Purpose of this style guide is to gather a list of rules, best practices, resources and our way of creating REST APIs in Haufe Group.
+
 The style guide addresses API Designers, mostly developers and architects, who want to design an API. Intention is to ease the design process by providing helpful rules to create a succesful API that your customers will love.
 Please follow the guidelines but don't follow blindly! You can break the rules with justification. Please inform the CTO Office (mailto:_CTOLeads@haufe-lexware.com) in this cases.
 
