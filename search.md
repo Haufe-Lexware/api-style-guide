@@ -4,7 +4,7 @@
 
 ###Simple or scoped search
 
-A simple search could be modeled as a resourceful API by appending '?' after the path of the URL wnd adding query parameters.  
+A simple search could be modeled as a resourceful API by appending '?' after the path of the URL and adding query parameters.  
 
 #####Example
 
