@@ -29,7 +29,7 @@ URL-based versioning is utilized for it's simplicity of use for API consumers, v
 > elements. API Providers need to be able to use meaningful defaults for additional fields not provided by existing > clients.  
 > Prevent from increasing the version as long as possible.
 
-Currently their is no certificatiion or validation process for clients to proove for proper behavior. Each client is responsible to test its implemenation.
+Currently their is no certification or validation process for clients to proove for proper behavior. Each client is responsible to test its implemenation.
 
 #####URI Template
 
@@ -41,7 +41,7 @@ Currently their is no certificatiion or validation process for clients to proove
 
 ### Resource References
 
-The URI references for resources should consistenly use the same path components to refer to resources. Sub-namespace or sub-folders should be avoided, to maintain path consistency. This allows consumer developers to have a predictable experience in case they are building URIs in code.
+The URI references for resources should consistently use the same path components to refer to resources. Sub-namespace or sub-folders should be avoided, to maintain path consistency. This allows consumer developers to have a predictable experience in case they are building URIs in code.
 
 #####URI Template
 
