@@ -1,6 +1,6 @@
 ### Support Hypermedia
 
-All our REST APIs MUST support hypermedia. Refer to [Hypermedia and REST](hypermedia-and-rest.md) for a detailed explanatiion.
+All our REST APIs MUST support hypermedia. Refer to [Hypermedia and REST](hypermedia-and-rest.md) for a detailed explanation.
 
 ### Use RESTful URLs and actions
 

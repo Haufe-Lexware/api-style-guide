@@ -1,5 +1,5 @@
 ##Hypermedia and REST
-There are four different Levels in the REST API Evolution. They are described in the Richardson Maturity Model. You can find more informatiion in [this](http://martinfowler.com/articles/richardsonMaturityModel.html) article from Martin Fowler.
+There are four different Levels in the REST API Evolution. They are described in the Richardson Maturity Model. You can find more information in [this](http://martinfowler.com/articles/richardsonMaturityModel.html) article from Martin Fowler.
 
 Hypermedia represents the links to your API. The main characteristics of Hypermedia are:
 
@@ -11,7 +11,9 @@ Hypermedia represents the links to your API. The main characteristics of Hyperme
 - Links become the application state
 - HATEOAS
 
-> (**HATEOAS**) Hypermedia as the Engine of Application State. The principle of addressability just says that every > resource should have its own URL. If something is important to your application, it should have a unique name, a > URL, so that you and your users can refer to it unambiguously.
+> (**HATEOAS**) Hypermedia as the Engine of Application State. The principle of addressability just says that every 
+> resource should have its own URL. If something is important to your application, it should have a unique name, a 
+> URL, so that you and your users can refer to it unambiguously.
 
 The URI Templates for HATEOAS are covered in RFC 6570 and the Link Header in RFC 5988.
 
@@ -19,7 +21,7 @@ At its core, HATEAOAS provides a way to interact with the REST API entirely thro
 
 HATEOAS links are contextual, so you only get the information that is relative to a specific request.
 
-Details about Hypermedia formats are described in [Response Formats](response-formats.md).
+Details about Hypermedia formats are described in [Response Formats](response-format.md).
 
 ###Relative vs Absolute
 

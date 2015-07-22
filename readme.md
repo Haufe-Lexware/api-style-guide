@@ -43,7 +43,7 @@ The covered chapters are:
 	- [Delete Single Resource](collection-resources.md#delete-single-resource)
 	- [Create New Resource](collection-resources.md#create-new-resource)
 	- [Create New Resource - Consumer Supplied Identifier](collection-resources.md#create-new-resource---consumer-supplied-identifier) 
-- [Filtering, sorting, field selection and paging](filtering-sorting-field-selectiion-and-paging.md)
+- [Filtering, sorting, field selection and paging](filtering-sorting-field-selection-and-paging.md)
 - [Response Format](response-format.md)
 - [Type Formatting](type-formatting.md)
 - [Security and Authentication](security-and-authentication.md)

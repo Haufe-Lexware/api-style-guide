@@ -82,7 +82,7 @@ A good example is a car pool. There are N drivers and M cars.
 
 ###Using a query parameter instead of sub-resources
 
-Another valid option is to use query parameters instead of sub-resources in case of the Belongs to and N:M relatiionship.
+Another valid option is to use query parameters instead of sub-resources in case of the Belongs to and N:M relationship.
 
 	GET  /invoices?customer_id=CUST-12ATCVWV
 	POST /invoices
