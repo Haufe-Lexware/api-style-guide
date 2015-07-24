@@ -41,7 +41,7 @@ Currently their is no certification or validation process for clients to proove 
 
 ### Resource References
 
-The URI references for resources should consistenly use the same path components to refer to resources. Sub-namespace or sub-folders should be avoided, to maintain path consistency. This allows consumer developers to have a predictable experience in case they are building URIs in code.
+The URI references for resources should consistently use the same path components to refer to resources. Sub-namespace or sub-folders should be avoided, to maintain path consistency. This allows consumer developers to have a predictable experience in case they are building URIs in code.
 
 #####URI Template
 
