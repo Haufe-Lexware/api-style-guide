@@ -101,7 +101,7 @@ In scenarios where this data might be used as a subordinate to other data, immut
 
 If the provided resource identifier is not found, responds `404 Not Found` HTTP status. Otherwise, `200 OK` HTTP status should be utilized when data is found.
 
-###Update Single Ressource
+###Update Single Resource
 
 Updates a single resource. The shape of the PUT request should maintain parity with the GET response for the selected resource. Fields in the request body can be optional or ignored during deserialization, such as "create_time" or other system-calculated values.
 
