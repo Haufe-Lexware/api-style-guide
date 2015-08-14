@@ -30,11 +30,11 @@ HAL response format
 
 	{
 	  "_links": {
-	    "self": { "href": "/users"},
-	    "first": { "href": "/users?page=1"},
-	    "last": { "href": "/users?page=11"},
-	    "next": { "href": "/users?page=2"},
-	    "find": { "href": "/users{?id}", "templated": true}
+	    "self": { "href": "{baseurl}/users"},
+	    "first": { "href": "{baseurl}/users?page=1"},
+	    "last": { "href": "{baseurl}/users?page=11"},
+	    "next": { "href": "{baseurl}/users?page=2"},
+	    "find": { "href": "{baseurl}/users{?id}", "templated": true}
 	  }
 	  "page": 1,
 	  "page_size": 20,
@@ -44,14 +44,14 @@ HAL response format
 	    "users": [
 	      {
 	        "_links": {
-	          "self": { "href": "/users/A14DA7707FE2458DAE37C2CF81E8F9B1" }
+	          "self": { "href": "{baseurl}/users/A14DA7707FE2458DAE37C2CF81E8F9B1" }
 	        },
 	        "id" : "A14DA7707FE2458DAE37C2CF81E8F9B1",
 	        "name" : "Mustermann"
 	      },
 	      {
 	        "_links": {
-	          "self": { "href": "/users/BE14A7269802498F992813885546D058" }
+	          "self": { "href": "{baseurl}/users/BE14A7269802498F992813885546D058" }
 	        },
 	        "id" : "BE14A7269802498F992813885546D058",
 	        "name" : "VIPUser"      
@@ -90,7 +90,7 @@ In scenarios where this data might be used as a subordinate to other data, immut
 
 	{
 	  "_links": {
-	    "self": { "href": "/users/BE14A7269802498F992813885546D058"},
+	    "self": { "href": "{baseurl}/users/BE14A7269802498F992813885546D058"},
 	  }
 	  "id": "BE14A7269802498F992813885546D058",
 	  "name": "Mustermann"
@@ -207,7 +207,7 @@ Note that server-generated values are not provided in the request.
 	201 Created 
 	{
 	  "_links": {
-	    "self": { "href": "/users/E75E30C0607446219C6EA31735C691B9"},
+	    "self": { "href": "{baseurl}/users/E75E30C0607446219C6EA31735C691B9"},
 	  }
 	  "id": "E75E30C0607446219C6EA31735C691B9",
 	  "name": "MyName123"

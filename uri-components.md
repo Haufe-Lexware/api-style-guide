@@ -48,5 +48,14 @@ The URI references for resources should consistently use the same path component
 	/{namespace}/{version}/{resource}/{resource-id}/{sub-resource}/{sub-resource-id}
  
 
+### baseurl
+
+In the following sections of the guide the term **baseurl** is often used to indicate an absolute URL.
+The **baseurl** is a replacement for the host, namespace and version.
+
+#####URI Template
+
+	baseurl = {host}/{namespace}/{version}
+
 
  

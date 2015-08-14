@@ -21,10 +21,10 @@ HAL response Format
 
 	{
 	  "_links": {
-	    "self": { "href": "/invoices/INV-567A89HG1"},
-	    "customer": { "href": "/customer/CUST-12ATCVWV"},
-	    "collection/lineitems": { "href": "/invoices/INV-567A89HG1/lineitems"},
-	    "collection/payments": { "href": "/invoices/INV-567A89HG1/payments"},
+	    "self": { "href": "{baseurl}/invoices/INV-567A89HG1"},
+	    "customer": { "href": "{baseurl}/customer/CUST-12ATCVWV"},
+	    "collection/lineitems": { "href": "{baseurl}/invoices/INV-567A89HG1/lineitems"},
+	    "collection/payments": { "href": "{baseurl}/invoices/INV-567A89HG1/payments"},
 	  }
 	  "id": "INV-567A89HG1",
 	  "number" : "627726",
