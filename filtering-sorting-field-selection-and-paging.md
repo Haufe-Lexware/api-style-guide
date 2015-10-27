@@ -7,7 +7,7 @@ Use a unique query parameter for all fields or a query language for filtering.
  
 ###Time selection
 
-start_time or {property_name}_after, end_time or {property_name}_before query parameters shoudl be provided if time selection is needed.
+start_time or {property_name}_after, end_time or {property_name}_before query parameters should be provided if time selection is needed.
 
 ###Sorting
 
@@ -21,7 +21,7 @@ This returns a list of cars sorted by descending manufacturers and ascending mod
 The sort order for each sort field **MUST** be specified with one of the following prefixes:
 
 - Plus (U+002B PLUS SIGN, "+") to request an ascending sort order.
-- Minus (U+002D HYPHEN-MINUS, "-") to request a descending sort order..
+- Minus (U+002D HYPHEN-MINUS, "-") to request a descending sort order.
 
 ###Field selection
 
