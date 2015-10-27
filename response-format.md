@@ -1,5 +1,5 @@
 ##Response Format
-Use existing standard formats like JSON, ATOM, Collection-JSON, HAL (both json and xml) etc over home made formats. The list here represents only a subset of possible formats. Refer to [On Choosing a Hypermedia Format](http://sookocheff.com/post/api/on-choosing-a-hypermedia-format/) for a more detailed overview of Hypermedia Formats.
+Use existing standard formats like JSON, ATOM, Collection-JSON, HAL (both JSON and XML) etc. over home made formats. The list here represents only a subset of possible formats. Refer to [On Choosing a Hypermedia Format](http://sookocheff.com/post/api/on-choosing-a-hypermedia-format/) for a more detailed overview of Hypermedia Formats.
 
 Regardless of your choice all formats need to support link relation elements.
 
