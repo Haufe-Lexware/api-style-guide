@@ -1,6 +1,6 @@
 ##Resources
 
-The fundamental concept in any RESTful API is the **resource**. One of the first steps in developing a RESTful web service is designing the resourcemodel. 
+The fundamental concept in any RESTful API is the **resource**. One of the first steps in developing a RESTful web service is designing the resource model. 
 The resource model identifies and classifies all the resources the client uses to interact with the Server.
 
 **Design your API with the API consumer in mind!**
@@ -8,7 +8,7 @@ The resource model identifies and classifies all the resources the client uses t
 Each resource MUST make sense from the perspective of the API consumer. 
 Beware of simply copy your internal model. Do not leak irrelevant implementation details out to your API. 
 
-A resource is an object with a type, associated data, relationships to other resources, and a set of methods that operate on it. HTTP verbs ar used to manipulate the resources.
+A resource is an object with a type, associated data, relationships to other resources, and a set of methods that operate on it. HTTP verbs are used to manipulate the resources.
 
 Resources can be grouped into **collections**. Each collection is homogeneous so that it contains only one type of resource, and unordered. Resources can also exist outside any collection. In this case, we refer to these resources as singleton resources. Collections are themselves resources as well.
 
@@ -22,7 +22,7 @@ We call information that describes available resources types, their behavior, an
 
 Find more details in the chapters:
 
-- Collection Resources
-- Filtering, sorting, field selection and paging
+- [Collection Resources](https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources.md)
+- [Filtering, sorting, field selection and paging](https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging.md)
 
  
