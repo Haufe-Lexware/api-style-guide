@@ -33,5 +33,16 @@ Validation errors for PUT, PATCH and POST requests will need a field breakdown. 
  
 > :information_source: Thanks to Vinay Sahni for this description http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#errors.
  
+### Error Response Format
+
+An example for a [Hypermedia error response format](http://nocarrier.co.uk/the-error-hypermedia-type/) can be found on [here]( 
+https://github.com/blongden/vnd.error).
+
+Be aware that for security sensitive APIs like User Management the need to return meaningful errors is always in tension with not returning too much information to guide a potential attacker. Dictionary attacks can be devastatingly effective if for instance the exact makeup of the password policy is revealed in the response.
+
+At the same time nothing is more frustrating for a customer to try to create a matching password without knowing the password constrains. This is why in general one would only show the password policy during initial setup and during password change, but not in response to login failures. During login you would never distinguish between a wrong username or a right username and a wrong password. Both should return the exact same error as to not allow a more targeted attack. (Note: This is why there is usually only a single link to cover both forgotten passwords and usernames).
+
+Using the [error format]( 
+https://github.com/blongden/vnd.error) above we can indicate an error and provide a ‘help’ link with a human-readable description of the error. A client (with the appropriate sensibility to the security issues I describe above) can then decide to render the help link oder omit it. In this way the error description is decoupled from the actual client. Changes to the underlying  business logic (ie. password policy) and corresponding human readable error descripton are entirely contained within the API provider without impacting any existing API clients.
 
  
