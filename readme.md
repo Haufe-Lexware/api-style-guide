@@ -46,6 +46,7 @@ The covered chapters are:
 - [Filtering, sorting, field selection and paging](filtering-sorting-field-selection-and-paging.md)
 - [Response Format](response-format.md)
 - [Type Formatting](type-formatting.md)
+- [Message Schema and Postels Law](message-schema.md)
 - [Security and Authentication](security-and-authentication.md)
 - [Search](search.md)
 - [Documentation](documentation.md)
