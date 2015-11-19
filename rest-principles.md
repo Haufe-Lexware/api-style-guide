@@ -45,7 +45,7 @@ Should you use hyphens, underscores, or camelCase to delimit words in the URIs?
 
 There are many, many different articles and opinions about that. Finally we decided to go with underscores.
 
-** Use underscores. Do not use acronyms. Use small caps. **
+**Use underscores. Do not use acronyms. Use small caps.**
 
 Look at these links for our reasoning. [https://whathecode.wordpress.com/2011/02/10/camelcase-vs-underscores-scientific-showdown/](https://whathecode.wordpress.com/2011/02/10/camelcase-vs-underscores-scientific-showdown/).
 
