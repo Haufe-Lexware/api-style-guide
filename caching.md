@@ -9,7 +9,9 @@ There are some reasons why you have to consider to use Caching
 
 Goal of caching is to never generate the same response twice.
 
-> Tip: For security reasons, do not allow sensitive data or data returned over an authenticated (HTTPS) connection to be cached.
+> Tip: For security reasons, do not allow sensitive data to be cached.
+Use server side mechanisms like setting `Cache-Control` to `no-store` in the response header.
+Additionally you should use HTTPS.
 
 
 #### Expires HTTP Header
