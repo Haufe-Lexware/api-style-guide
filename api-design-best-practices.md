@@ -31,6 +31,10 @@ Reserve time to create documentation. Use [Swagger](https://helloreverb.com/deve
 ### API clients MUST use a self-service API portal to get access to the API via an API Key
 
 Different SLA’s CAN be offered by the API provider. API clients are identified by API keys obtained from the portal. 
-No API access without a corresponding and valid API key. (exception for pubsub notification APIs which only contain the link to the resource but not the resource itself)
+No API access without a corresponding and valid API key. (exception for pubsub notification APIs which only contain the link to the resource but not the resource itself).
+	
+> We are currently investigating different API management solution to support this requirement.
+	
+
 
  
