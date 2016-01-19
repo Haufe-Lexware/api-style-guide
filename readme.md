@@ -49,7 +49,7 @@ The covered chapters are:
 	- [Create New Resource](collection-resources.md#create-new-resource)
 	- [Create New Resource - Consumer Supplied Identifier](collection-resources.md#create-new-resource---consumer-supplied-identifier) 
 - [Filtering, sorting, field selection and paging](filtering-sorting-field-selection-and-paging.md)
-- [Response Format](response-format.md)
+- [Hypermedia Response Format](response-format.md)
 - [Type Formatting](type-formatting.md)
 - [Message Schema and Postels Law](message-schema.md)
 - [Security and Authentication](security-and-authentication.md)

@@ -4,9 +4,9 @@ One of the key best practices for creating robust services is embodied in the so
 
 > be conservative in what you send, be liberal in what you accept.
 
-It focuses on the idea of gracefully adapting to communication that doesn't conform to the agreed specification/contract. It is important to notice though that ir only talks about accepting potential missformed but otherwise sensical messages. It does not talk about if and how it should be processed (i.e. deliberatly ignoring unknown fields or values is one valid approach)
+It focuses on the idea of gracefully adapting to communication that doesn't conform to the agreed specification/contract. It is important to notice though that it only talks about accepting potential missformed but otherwise sensical messages. It does not talk about if and how it should be processed (i.e. deliberatly ignoring unknown fields or values is one valid approach)
 
-The ability to extend service definitions after the initial release without affecting already deployed clients is key to preserve agility and evolvability of thse services. Well designed message schemas play a key part in either enabling or hindering a development team in evolving the service in the future. 
+The ability to extend service definitions after the initial release without affecting already deployed clients is key to preserve agility and evolvability of those services. Well designed message schemas play a key part in either enabling or hindering a development team in evolving the service in the future. 
 
 Unfortunatly message schemas tend to be used for two different purposes at the same time
 
