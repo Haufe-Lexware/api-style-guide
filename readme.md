@@ -22,6 +22,15 @@ The style guide is work in progress. We’d love your feedback – whether you a
 >
 >	Please contribute! 
 
+### API Design Review Process
+We are still at the beginning of our journey to an API driven company.   
+There will be pros and cons how to handle and apply the style guide to real projects.
+There are many things to learn and to share with another.
+
+To support the mutual experience exchange we decided to establish an **API Design Review Process**.
+Each new or refactored API MUST run through this process.
+Have a look at [API Design Review Process](api-design-review-process.md) for more information.
+
 ### Content
 
 ####Most important chapters

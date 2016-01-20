@@ -58,5 +58,14 @@ The **baseurl** is a replacement for the host, namespace and version.
 
 	baseurl = {host}/{namespace}/{version}
 
+### Valid and invalid url
+
+Your rest endpoints normally end with a noun like
+
+    {host}/user_management/v1/users
+
+There is no trailing slash. You CAN support a trailing slash. But it is not common.   
+Do not try to support urls like {host}/user_management/v1/users/?queryparams. It is not valid!
+
 
  
