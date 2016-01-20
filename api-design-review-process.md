@@ -83,15 +83,16 @@ The outcome of the review is documented in the GitHub repo readme.md.
 
 #### When is an API reviewed and can be implemented?
 After finishing the API review there will be some change requests for the API.
-Most of them might be easy to fix/change and the API designer will do that immediately during the review.
+Most of them might be easy to fix/change and the API designer will do that immediately during the review.   
 Other changes may need more effort and planning how to fix them.
-There might be change request that are too expensive regarding the benefit.
+There even might be change requests that are too expensive regarding the benefit.   
+
 The next steps and the the conclusion how to proceed with the change requests is written 
 down in the **conclusion** section of the GitHub repo readme.md.
 The implementation can start after finishig the review. 
 
 #### Learnings from the review and feedback to the style guide
-After each review the API designer/team should provide an feedback issue in the 
+After each review the API designer/team should provide a feedback issue in the 
 API style guide project and mark it with the label **feedback**.
 The feedback has to cover at least the topics
 
@@ -103,5 +104,5 @@ The feedback has to cover at least the topics
   What can we improve regarding tooling, planning etc.
 
 #### How to measure success for the API review
-
+Tbd
 
