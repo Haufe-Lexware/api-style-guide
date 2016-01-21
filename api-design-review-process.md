@@ -97,12 +97,26 @@ API style guide project and mark it with the label **feedback**.
 The feedback has to cover at least the topics
 
 - How helpful was the API style guide for your design process?   
-  Which sections especially?
+  Which sections especially? What did you learn for future API designs?
 - How to improve the style guide itself?   
   Which information do you miss? Which guideline do you not agree with?
 - How to improve the API review process itself?   
   What can we improve regarding tooling, planning etc.
 
 #### How to measure success for the API review
-Tbd
+There are two goals in an API review
+##### Improve the API itself
+It's not that easy to measure the improvement of the API.
+It is best to look at it from a client persepective. 
+But there is no immediate client involved in the process to get feedback from.
+
+We count how many issues are fixed.
+The measurement is dependent on the quality off the initial API design.
+But it is a concrete measurement.
+
+##### Learn to design APIs
+It is even harder to measure that criteria.
+First of all we ask the API designer for his feedback like mentioned in the Learnings section.   
+Next we can also check how much issues are entered and fixed. 
+
 
