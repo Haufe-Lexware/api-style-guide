@@ -26,8 +26,9 @@ URL-based versioning is utilized for it's simplicity of use for API consumers, v
 
 > Version is a single number and only to be incremented on ‘backward’ compatibility breaking.  
 > Adding fields or deprecating fileds are NOT breaking changes. API Clients need to be able to ignore additional 
-> elements. API Providers need to be able to use meaningful defaults for additional fields not provided by existing > clients.  
-> Prevent from increasing the version as long as possible.
+> elements. API Providers need to be able to use meaningful defaults for additional fields not provided by existing clients.  
+>
+> **Prevent from increasing the version as long as possible!**
 
 Currently their is no certification or validation process for clients to proove for proper behavior. Each client is responsible to test its implemenation.
 
@@ -56,6 +57,15 @@ The **baseurl** is a replacement for the host, namespace and version.
 #####URI Template
 
 	baseurl = {host}/{namespace}/{version}
+
+### Valid and invalid url
+
+Your rest endpoints normally end with a noun like
+
+    {host}/user_management/v1/users
+
+There is no trailing slash. You CAN support a trailing slash. But it is not common.   
+Do not try to support urls like {host}/user_management/v1/users/?queryparams. It is not valid!
 
 
  
