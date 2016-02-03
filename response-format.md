@@ -132,4 +132,6 @@ The following example shows a possible XML representation describing a person.
 	  </gender>
 	</person>
 	 
+### Hypermedia Link base URLs
 
+For a discussion of the `X-Api-Host` header and its usage, see [Hypermedia and REST](hypermedia-and-rest.md).
