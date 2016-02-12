@@ -187,7 +187,7 @@ In most cases, the API server produces an identifier for the resource. In cases 
 
 Once the POST has successfully completed, a new resource will be created. The identifier for this resource should be added to the resource collection URI.
 
-Hypermedia links provide an easy way to get the URL of the newly created resource, using the rel: self, in addition to other links for operations allowed for the new resource.
+Hypermedia links provide an easy way to get the URL of the newly created resource, using the rel: self, in addition to other links for operations allowed for the new resource. Addionally a location header in the response can point to the newly created resource.
 
 #####URI Template
 
@@ -198,6 +198,7 @@ Hypermedia links provide an easy way to get the URL of the newly created resourc
 Note that server-generated values are not provided in the request.
 
 	POST /user_management/v1/users
+	
 	{
 	    "name": "MyName123",
 	}
@@ -205,6 +206,8 @@ Note that server-generated values are not provided in the request.
 #####Example Response
 
 	201 Created 
+	Location: http://api.haufe-lexware.com/user_management/v1/users/E75E30C0607446219C6EA31735C691B9
+	
 	{
 	  "_links": {
 	    "self": { "href": "{baseurl}/users/E75E30C0607446219C6EA31735C691B9"},
