@@ -56,7 +56,7 @@ The **baseurl** is a replacement for the host, namespace and version.
 
 #####URI Template
 
-	baseurl = {host}/{namespace}/{version}
+	baseurl = {scheme}://{host}/{namespace}/{version}
 
 ### Valid and invalid url
 
