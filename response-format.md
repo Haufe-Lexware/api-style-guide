@@ -35,7 +35,7 @@ This is the desciption from the Website http://stateless.co/hal_specification.ht
 
 HAL provides a set of conventions for expressing hyperlinks in either JSON or XML.
 
-**The rest of a HAL document is just plain old JSON or XML.**
+**The rest of a HAL document is just plain old JSON or XML with optional embedded resources**
 
 Instead of using ad-hoc structures, or spending valuable time designing your own format; you can adopt HAL's conventions and focus on building and documenting the data and transitions that make up your API.
 
