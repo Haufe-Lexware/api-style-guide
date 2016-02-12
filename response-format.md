@@ -27,7 +27,7 @@ It has custom content and profile media type, the description of the data.
 The content types are:
 
     application/hal+json
-    application/hap+xml
+    application/hal+xml
 
 More about it in their official [website](http://stateless.co/hal_specification.html).
 
