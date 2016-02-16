@@ -68,7 +68,7 @@ The covered chapters are:
 - [HTTP Status Codes](http-status-codes.md)
 - [Caching](caching.md)
 - [API Management](api-management.md)
-- [FAQ](fq.md)
+- [FAQ](faq.md)
 - [Further Resources](further-resources.md)
 
 ### Credits

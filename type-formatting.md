@@ -33,7 +33,7 @@ Use country codes defined by the [**ISO 3166-1-alpha-2**](https://en.wikipedia.o
 
 ###Amount
 
-Use the format [0-9]+.[0-9] to represent an amount like money.
+Use the format [0-9]+(\.[0-9]+)? to represent an amount like money.
 Separate amount and currency in different fields.
 
 #####Samples
