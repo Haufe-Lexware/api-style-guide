@@ -68,14 +68,13 @@ The covered chapters are:
 - [Caching](caching.md)
 - [API Management](api-management.md)
 - [FAQ](faq.md)
-- [Further Resources](further-resources.md)
+- [Further Reading](further-reading.md)
 
 ### Credits
 
 For the creation of the style guide I took a lot of input from other authors and even copied whole passages.
 
-I want to gratefully thank these authors and hope that I marked the relevant passages.
-My resources are listed under [Further Resources](further-resources.md). Special thanks goes to
+I want to gratefully thank these authors and hope that I marked the relevant passages. My resources are listed under [Further Reading](further-reading.md). Special thanks goes to
 
 [S.Stedman and G. Laforge from Paypal](https://github.com/paypal/api-standards/blob/master/api-style-guide.md)  
 [Brian Mulloy](https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf)  
