@@ -22,7 +22,7 @@ Therefore APIs should be designed like external APIs. Last but not least we lear
 
 ### Do not implement API Management
 
-We have a list of appropriate API management solutions both free and commercial we like to share.
+We have a list of appropriate API management solutions we like to standardize on. If our existing solutions and blueprints do not fit, we work with you to find one which does.
 
 ### Every API MUST be described using a formal API description language
 
