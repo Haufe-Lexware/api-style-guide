@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Purpose of this style guide is to gather a list of rules, best practices, resources and our way of creating REST APIs in **Haufe Group**.
+Purpose of this style guide is to gather a list of rules, best practices, resources and our way of creating REST APIs in **Haufe-Lexware**.
 The style guide addresses API Designers, mostly developers and architects, who want to design an API. Intention is to ease the design process by providing helpful rules to create a succesful API that your customers will love.  
 The style guide focuses on **REST APIs** cause this is the preferred way to expose APIs to our services.
 
@@ -34,15 +34,15 @@ Have a look at [API Design Review Process](api-design-review-process.md) for mor
 ### Content
 
 ####Most important chapters
-Please start with the chapters [API design best practices](api-design-best-practices.md)
-and [REST principles](rest-principles.md).
+Please start with the chapters [API Design Best Practices](api-design-best-practices.md), [API Design Process](api-design-process.md) and [REST Principles](rest-principles.md).
 These chapters describe the intention and mindset how we want to design an API.
 Each section contains links to the chapters with more details.
 
 The covered chapters are:
 
-- [API design best practices](api-design-best-practices.md)
-- [REST principles](rest-principles.md)
+- [API Design Best Practices](api-design-best-practices.md)
+- [API Design Process](api-design-process.md)
+- [REST Principles](rest-principles.md)
 - [URI Components](uri-components.md)
 - [HTTP Verbs](http-verbs.md)
 - [Hypermedia and REST](hypermedia-and-rest.md) 

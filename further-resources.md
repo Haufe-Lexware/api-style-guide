@@ -1,6 +1,8 @@
 ##Further Resources
 
-Good stuff to read and where we got a lot of Infos and guidance from:
+A good reference book for APIs and API Design is [A Practical Approach to API Design](https://leanpub.com/restful-api-design) by D. Keith Casey Jr and James Higginbotham. 
+
+Additional information and guidance can be found in the following list:
 
 [https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf](https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf)
 

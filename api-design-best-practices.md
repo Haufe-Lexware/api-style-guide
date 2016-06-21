@@ -1,4 +1,4 @@
-## API design best practices
+## API Design Best Practices
 
 ### You should think of an API like a product. Indeed a Business API is a product.
 
@@ -37,7 +37,7 @@ Refer to [Documentation](documentation.md) for details.
 Different SLA’s CAN be offered by the API provider. API clients are identified by API keys obtained from the portal. 
 No API access without a corresponding and valid API key. (exception for pubsub notification APIs which only contain the link to the resource but not the resource itself).
 	
-> We are currently investigating different API management solution to support this requirement.
+> We are currently investigating different API management solution to support this requirement. A blueprint exists for Microsoft Azure and a self-contained Open Source solution based on Mashape Kong API Gateway.
 	
 ### Follow the Robustness Principle
 
