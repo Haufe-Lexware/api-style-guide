@@ -31,3 +31,7 @@ The following is a quick summary of Hypermedia Linking
 * ***Additional Navigation Links***: Most commonly used for collection responses, where you may need to offer pagination links for next and previous pages, and for navigation to other areas of the API.
 
 Please see [Hypermedia and Rest](hypermedia-and-rest.md) for a more in depth discussion of Hypermedia.
+
+### Further Reading
+
+A good reference book for APIs and API Design is the afore mentioned [A Practical Approach to API Design](https://leanpub.com/restful-api-design) by D. Keith Casey Jr and James Higginbotham.
