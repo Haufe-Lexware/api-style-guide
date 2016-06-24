@@ -35,12 +35,17 @@ The reason is mostly for ease of use by the client, so that it never has to find
 
 In [Hypermedia responses](response-format.md), we require the use of absolute URLs (as stated in the above section). If your API lives behind an [API Management](api-management.md), the actual URI of the (backend) API will be different from the URI which is the one to call, i.e. the one of the API management gateway.
 
-As a rule, the API Management gateway MUST pass an additional header with the call to the backend API containing the API Gateway base URL for the API at hand. This header must be named `X-Api-Host`.
+As a rule, the API Management gateway MUST pass an additional header with the call to the backend API containing the API Gateway base URL for the API at hand. This header must be named `Forwarded`, as described in [RFC 7239](https://tools.ietf.org/html/rfc7239). The two parameters `host` and `proto` are pre-defined in the RFC, whereas we need additional ones, which is explicitly allowed per Section 5.5 of the RFC:
 
-Example:
+* `host`: Must contain the host name of the API Gateway; this is the host an API client uses to actually talk to the API.
+* `proto`: The protocol/schema to use. This MUST be `https` for all of our APIs (see [security and authentication](security-and-authentication.md))
+* Extension `port`: OPTIONAL - The port of the API Gateway. Usually this can be assumed to be `443` if `proto` equals `https`; use if deviating
+* Extension `prefix`: The base path of the API on the API Gateway, e.g. `/someapi/v1`. 
+
+**Example**: A request goes to `https://api.contenthub.haufe.io/ingest/v1/bulk/63874638746834`, which is forwarded to the ingest service in the backend. The API Gateway must pass on this information in the following way:
 
 ```
-X-Api-Host: https://api.contenthub.haufe.de/ingest/v1
+Forwarded: proto=https;host=api.contenthub.haufe.io;port=443;prefix=/ingest/v1
 ```
 
 If present, this header MUST be used to assemble hypermedia links in responses, so that an API consumer is directed to the right place.

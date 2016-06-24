@@ -8,7 +8,7 @@ Above all, OAuth 2.0 will mean improved security and better end-user and consume
 
 Don't do something *like* OAuth, but different. It will be frustrating for app developers if they can't use an OAuth library in their language because of your variation.
 
-###SSL everywhere - all the time
+### SSL everywhere - all the time
 
 Always use SSL.  No exceptions.  Today, your web APIs can get accessed from anywhere there is internet (like libraries, coffee shops, airports among others).  Not all of these are secure. Many don't encrypt communications at all, allowing for easy eavesdropping or impersonation if authentication credentials are hijacked.
 
