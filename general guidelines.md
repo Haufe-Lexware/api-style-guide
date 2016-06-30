@@ -9,7 +9,7 @@ Like a product it should follow these rules:
 - Easy to read and maintain it
 - Audience oriented
 
-### Design your API with a customer, or at least with a customer in mind and actively seek Feedback.
+### Design your API with a customer, or at least with a customer in mind and actively seek feedback.
 
 Every API should be designed as if it were an external API for paying customers. Design your API with the API consumer in mind!
 
@@ -23,8 +23,7 @@ We have a list of appropriate API management solutions we like to standardize on
 
 ### Every API MUST be described using a formal API description language
 
-While we recognize the existence of various languages (RAML, Blueprint) we standardize on Swagger as the most commonly used language. 
-API documentation has to be generated from its Swagger definition to ensure inherent consistency. Swagger is used to provide access to the API via API management tooling. 
+While we recognize the existence of various languages (RAML, Blueprint) we standardize on Swagger as the most commonly used language. API documentation has to be generated from its Swagger definition to ensure inherent consistency. Swagger is used to provide access to the API via API management tooling. 
 
 Reserve time to create documentation. Use [Swagger](http://swagger.io/) to document. Refer to [Documentation](documentation.md) for details.
 

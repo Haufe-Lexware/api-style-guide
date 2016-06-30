@@ -7,41 +7,37 @@ The style guide addresses API Designers, mostly developers and architects, who w
 The style guide focuses on **REST APIs** cause this is the preferred way to expose APIs to our services.
 
 ###How to use the guide
-The API style guide MUST be used when you create an API, refactor or extend an API.
-Existing APIs might be subject to adapt if there is business value in it.
+The API style guide MUST be used when you create an API, refactor or extend an API, no exeptions. Existing APIs might be subject to adapt if there is business value in it.
 
-It is the responsibility of the API designer to apply the API style guide to a specific API and project!
+It is the responsibility of the person implementing the API to apply the API Styleguide to a specific API and project!
 	
 >	Please follow the guidelines, but don't follow blindly!  
->	You can break the rules with justification.
+>	You can break the rules by talking to us and providing justification.
 
 The style guide is work in progress. We’d love your feedback – whether you agree, disagree, or have some additional practices and tips to add.
 
->	We encourage you to improve the style guide with modifications and extensions.
->	Inform the CTO Office (mailto:_CTOLeads@haufe-lexware.com) in this cases.
->
->	Please contribute! 
+We encourage you to improve the style guide with modifications and extensions via the usual Fork/Pull Request dance. If your modification gets merged, it becomes part of the Styleguide. On the other hand if you don't bother, don't complain.
 
 ### API Design Review Process
 We are still at the beginning of our journey to an API driven company.   
-There will be pros and cons how to handle and apply the style guide to real projects.
-There are many things to learn and to share with another.
+There will be pros and cons how to handle and apply the style guide to real projects. There are many things to learn and to share with another. Feel free to reach out and share your knowledge on the `#apistrat` channel on RocketChat.
 
-To support the mutual experience exchange we decided to establish an **API Design Review Process**.
-Each new or refactored API MUST run through this process.
-Have a look at [API Design Review Process](api-design-review-process.md) for more information.
+Each new or refactored API MUST be reviewed through a API Design Review. Have a look at [API Design Review Process](api-design-review-process.md) for more information.
 
 ### Content
 
-####Most important chapters
-Please start with the chapters [API Design Best Practices](api-design-best-practices.md), [API Design Process](api-design-process.md) and [REST Principles](rest-principles.md). These chapters describe the intention, mindset and process how we want to design an API.
+#### Most important chapters
+Please read the first 6 chapters (in bold). These chapters describe the intention, mindset and process how we want to design an API.
+
 Each section contains links to the chapters with more details.
 
-The covered chapters are:
+The chapters are:
 
-- [API Design Best Practices](api-design-best-practices.md)
-- [API Design Process](api-design-process.md)
-- [REST Principles](rest-principles.md)
+- **[Introduction](introduction.md)**
+- **[General Guidlines](general-guidelines.md)**
+- **[API Design Principles](api-design-principles.md)**
+- **[API Design Process](api-design-process.md)**
+- **[REST Principles](rest-principles.md)**
 - [URI Components](uri-components.md)
 - [HTTP Verbs](http-verbs.md)
 - [Hypermedia and REST](hypermedia-and-rest.md) 

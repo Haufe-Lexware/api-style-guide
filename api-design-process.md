@@ -32,6 +32,6 @@ The following is a quick summary of Hypermedia Linking
 
 Please see [Hypermedia and Rest](hypermedia-and-rest.md) for a more in depth discussion of Hypermedia.
 
-### Further Reading
+---
 
 A good reference book for APIs and API Design is the afore mentioned [A Practical Approach to API Design](https://leanpub.com/restful-api-design) by D. Keith Casey Jr and James Higginbotham.
