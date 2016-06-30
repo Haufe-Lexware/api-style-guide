@@ -21,16 +21,15 @@ Do not use acronyms. Use small caps and underscore ‘_’ for ‘space’ (gove
 
 ###Version
 
-The URI should include /vN with the major version (N) as a prefix. No major.minor syntax.
-URL-based versioning is utilized for it's simplicity of use for API consumers, versus the more complex header-based approach.  
+The URI should include /vN with the major version (N) as a prefix. No major.minor syntax. URL-based versioning is utilized for it's simplicity of use for API consumers, versus the more complex header-based approach.[^1]
 
-> Version is a single number and only to be incremented on ‘backward’ compatibility breaking.  
-> Adding fields or deprecating fileds are NOT breaking changes. API Clients need to be able to ignore additional 
-> elements. API Providers need to be able to use meaningful defaults for additional fields not provided by existing clients.  
->
-> **Prevent from increasing the version as long as possible!**
+[^1] See the following [brief overview of versioning methods](https://www.3scale.net/2016/06/api-versioning-methods-a-brief-reference/)
 
-Currently their is no certification or validation process for clients to proove for proper behavior. Each client is responsible to test its implemenation.
+Version is a single number and only to be incremented on ‘backward’ compatibility breaking. Adding fields or deprecating fileds are **NOT** breaking changes. API Clients need to be able to ignore additional elements. API Providers need to be able to use meaningful defaults for new fields not expected by existing clients.  
+
+Please stick to the following rules:
+
+In general do **NOT** increment the version of your API. Until you must. And it is really rare that you really must. Only increment on breaking changes Extending the API is not a breaking change. 
 
 #####URI Template
 
@@ -64,8 +63,7 @@ Your rest endpoints normally end with a noun like
 
     {host}/user_management/v1/users
 
-There is no trailing slash. You CAN support a trailing slash. But it is not common.   
-Do not try to support urls like {host}/user_management/v1/users/?queryparams. It is not valid!
+There is no trailing slash. You CAN support a trailing slash. But it is not common. Do NOT support urls like {host}/user_management/v1/users/?queryparams. It is not valid!
 
 
  
