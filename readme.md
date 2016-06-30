@@ -1,12 +1,12 @@
 # Haufe API style guide
 
-## Introduction
+###Purpose
+---
+Great RESTful APIs look like they were designed by a single team. This promotes API adoption, reduces friction, and enables clients to use them properly. To build APIs that meet this standard, and to answer many common questions encountered along the way of RESTful API development, the Haufe-Lexware CTO team has created this comprehensive set of guidelines. We have shared it with you to inspire additional discussion and refinement within and among your teams, and contribute our learnings and suggestions to the tech community at large.
 
-Purpose of this style guide is to gather a list of rules, best practices, resources and our way of creating REST APIs in **Haufe-Lexware**.
-The style guide addresses API Designers, mostly developers and architects, who want to design an API. Intention is to ease the design process by providing helpful rules to create a succesful API that your customers will love.  
-The style guide focuses on **REST APIs** cause this is the preferred way to expose APIs to our services.
 
-###How to use the guide
+###Usage
+---
 The API style guide MUST be used when you create an API, refactor or extend an API, no exeptions. Existing APIs might be subject to adapt if there is business value in it.
 
 It is the responsibility of the person implementing the API to apply the API Styleguide to a specific API and project!
@@ -19,18 +19,22 @@ The style guide is work in progress. We’d love your feedback – whether you a
 We encourage you to improve the style guide with modifications and extensions via the usual Fork/Pull Request dance. If your modification gets merged, it becomes part of the Styleguide. On the other hand if you don't bother, don't complain.
 
 ### API Design Review Process
-We are still at the beginning of our journey to an API driven company.   
-There will be pros and cons how to handle and apply the style guide to real projects. There are many things to learn and to share with another. Feel free to reach out and share your knowledge on the `#apistrat` channel on RocketChat.
+---
+We are still at the beginning of our journey to an API driven company.
+   
+There will be pros and cons how to handle and apply the style guide to real projects. There are many things to learn and to share with another. Feel free to reach out and ask and share on the `#apistrat` channel on our Haufe RocketChat.
 
 Each new or refactored API MUST be reviewed through a API Design Review. Have a look at [API Design Review Process](api-design-review-process.md) for more information.
 
 ### Content
+---
 
 #### Most important chapters
 Please read the first 6 chapters (in bold). These chapters describe the intention, mindset and process how we want to design an API.
 
 Each section contains links to the chapters with more details.
 
+#### Table of Content
 The chapters are:
 
 - **[Introduction](introduction.md)**
@@ -67,6 +71,7 @@ The chapters are:
 - [Further Reading](further-reading.md)
 
 ### Credits
+---
 
 For the creation of the style guide I took a lot of input from other authors and even copied whole passages.
 
@@ -79,4 +84,5 @@ I want to gratefully thank these authors and hope that I marked the relevant pas
 [Michel Triana](http://micheltriana.com/2013/09/30/http-verbs-in-a-rest-web-api/)  
 [Stefan Jauker](http://blog.mwaysolutions.com/author/stefan-jauker/)
 
+Another great inspiration were [Zalando's Restful API Guidelines](http://zalando.github.io/restful-api-guidelines/).
 
