@@ -65,4 +65,4 @@ Auto-generating client and server side code might be permissable for as long as 
 
 Please note though that there might be benefits in allowing code-generation of some types like xsd:date for example.
 
-To address security we need to consider both confidentiality of the message exchange and authentication of the message enpoints. The former will almost alwasy be provided by TLS and the latter through certificate validation and/or token-based authentication like OAuth2. More details can be found in [Security and Authentication](security-and-authentication.md).
+To address security we need to consider both confidentiality of the message exchange and authentication of the message enpoints. The former will almost alwasy be provided by TLS and the latter through certificate validation and/or token-based authentication like OAuth2. More details can be found in [Security and Authentication](../security-and-authentication/security-and-authentication.md).

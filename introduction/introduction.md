@@ -18,7 +18,7 @@ Ideally, all of our APIs will look like the same author created them.
 
 The purpose of our “RESTful API guidelines” is to define standards to successfully establish “consistent API look and feel” quality. The CTO Team drafted and owns this guidelines. Teams are responsible to fulfill these guidelines during API development and are encouraged to contribute to guideline evolution via pull requests.
 
-Furthermore, teams should take part in [API review process](../api-review-process/api-review-process.md).
+Furthermore, teams should take part in [API review process](../api-design-review-process/api-design-review-process.md).
 
 Note: These guidelines will, to some extent, remain work in progress as our work evolves, but teams can confidently follow and trust them.
 

@@ -10,7 +10,7 @@ Providing a summarized, or minimized version of the data representation can redu
 ###Resource naming
 
 Collection resource names should be plural nouns, e.g. /users. This helps visually disambiguate collections from singletons.
-Please have a look at [REST principles](rest-principles.md) for naming Guidelines.
+Please have a look at [REST principles](../rest-principles/rest-principles.md) for naming Guidelines.
 
 ###Get List of resources
 
@@ -72,7 +72,7 @@ A single resource, typically derived from the parent collection of resources (of
 
 Executing GET should never affect the system, and should not change response on subsequent requests, i.e. it should be idempotent.
 
-> :exclamation: All identifiers for sensitive data should be non-sequential, and preferrably non-numeric.
+> All identifiers for sensible resources (customers, individuals) should be non-sequential, and preferrably non-numeric.
 
 In scenarios where this data might be used as a subordinate to other data, immutable string identifiers should be utilized for easier readability and debugging (i.e. "NAME_OF_VALUE" vs 1421321).
 

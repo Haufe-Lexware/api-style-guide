@@ -8,7 +8,7 @@ Describe important use cases to give developers a quick headstart.
 
 Goal is to enable a developer to use your API as quick as possible.
 
-- Enable a developer in 5 minutes to use your API
+- Enable a developer to use your API in 5 minutes 
 - Documentation is non-negotiable!
 
 Use **Swagger** as description and definition language of your API.

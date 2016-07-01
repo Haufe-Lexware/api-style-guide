@@ -22,7 +22,7 @@ We call information that describes available resources types, their behavior, an
 
 Find more details in the chapters:
 
-- [Collection Resources](https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources.md)
-- [Filtering, sorting, field selection and paging](https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging.md)
+- [Collection Resources](../collection-resources/collection-resources.md)
+- [Filtering, sorting, field selection and paging](../filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md)
 
  

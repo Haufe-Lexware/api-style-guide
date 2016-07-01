@@ -25,7 +25,7 @@ We have a list of appropriate API management solutions we like to standardize on
 
 While we recognize the existence of various languages (RAML, Blueprint) we standardize on Swagger as the most commonly used language. API documentation has to be generated from its Swagger definition to ensure inherent consistency. Swagger is used to provide access to the API via API management tooling. 
 
-Reserve time to create documentation. Use [Swagger](http://swagger.io/) to document. Refer to [Documentation](documentation.md) for details.
+Reserve time to create documentation. Use [Swagger](http://swagger.io/) to document. Refer to [Documentation](../documentation/documentation.md) for details.
 
 ### API clients MUST use an API Key
 

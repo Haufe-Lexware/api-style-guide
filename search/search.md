@@ -11,7 +11,7 @@ A simple search could be modeled as a resourceful API by appending '?' after the
 	/users?given_name="Mustermann"
  
 
-Please refer to the filtering section in [Filtering, sorting, field selection and paging](filtering-sorting-field-selection-and-paging.md).
+Please refer to the filtering section in [Filtering, sorting, field selection and paging](../filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md).
 
 ###Global search
 

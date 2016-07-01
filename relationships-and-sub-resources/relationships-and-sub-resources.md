@@ -6,7 +6,8 @@ Our Goal is to provide self describing APIs where links help the API consumer ho
 
 ###Hypermedia Support for relationships
 
-A response...
+A response ...
+
 - MUST return a link element to **self**
 - MUST return links to **sub-resource**
 - SHOULD return links to **related objects**

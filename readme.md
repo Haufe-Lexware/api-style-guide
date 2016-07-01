@@ -24,13 +24,13 @@ We are still at the beginning of our journey to an API driven company.
    
 There will be pros and cons how to handle and apply the style guide to real projects. There are many things to learn and to share with another. Feel free to reach out and ask and share on the `#apistrat` channel on our Haufe RocketChat.
 
-Each new or refactored API MUST be reviewed through a API Design Review. Have a look at [API Design Review Process](api-design-review-process.md) for more information.
+The [API Design Review Process](api-design-review-process/api-design-review-process.md) is **mandatory** for each new or refactored API at Haufe-Lexware.
 
 ### Content
 ---
 
 #### Most important chapters
-Please read the first 6 chapters (in bold). These chapters describe the intention, mindset and process how we want to design an API.
+Please read the bold chapters beow. These chapters describe the intent, mindset and process how we want to design an API.
 
 Each section contains links to the chapters with more details.
 
@@ -41,8 +41,9 @@ The chapters are:
 - **[General Guidlines](general-guidelines/general-guidelines.md)**
 - **[API Design Principles](api-design-principles/api-design-principles.md)**
 - **[API Design Process](api-design-process/api-design-process.md)**
+- **[API Design Review Process](api-design-review-process/api-design-review-process.md)**
 - **[REST Principles](rest-principles/rest-principles.md)**
-- [URI Components](uri-components/uri-components.md)
+- [URI Components and Versioning](uri-components/uri-components.md)
 - [HTTP Verbs](http-verbs/http-verbs.md)
 - [Hypermedia and REST](hypermedia-and-rest/hypermedia-and-rest.md) 
 - [Resources](resources/resources.md)

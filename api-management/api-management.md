@@ -4,29 +4,31 @@
 
 There are many different scenarions in which API management can and must be used. The following sections describe the four most basic scenarios.
 
-#### Internal API Use
+#### Internal API
+tbd.
 
-#### Protected API Use (Partner use)
+#### Partner API
+tbd.
 
-#### Public API Use
+#### Public API
+tbd.
 
-#### Mobile APIs
+#### Mobile API
+tbd.
 
 
 ### API Gateways and Portals
+Our believe in the inherent adaptability and robustness of a loosly coupled and decentralized service landscape and infrastructure also applies to API Management (APIm). There is no central APIm instance in Haufe, but a set of APIm instances servicing distinct groups of contextual related API's. Keeping with the spirit of 'how the web is working', we provide a central API search engine (like Google) to find APIs across Haufe.
 
-APIs can and should be grouped in functionality groups, which in turn can be managed via one API Management instance. Please note that it is not prescribed which technical solution has to be used, but this is rather decided from case to case.
+The introduction of a new API management solution has to be discussed with the CTO office and is subject to review by the Architecture Review Board (ARB).
 
-Nonetheless, the introduction of a new API management solution has to be discussed with the CTO office/the Architecture Review Board (ARB).
+We encourage that also the API management solution, or at least, the API serviced by the APIm solution, should be maintained and operated (in the DevOps sense) by the team which operates and maintains the underlying service. The API inside the API management solution is to be treated **as part of the service, it is not an addon**.
 
-In any case it is encouraged that also the API management solution, or at least, the API contained in the APIm solution, has to be maintained and operated (in the DevOps sense) by the team which operates and maintains the underlying service. The API inside the API management solution is to be treated **as a part of the service itself, it is not an addon**.
-
-At Haufe, we have a couple of predefined API management solutions (API gateway plus API developer portal), which all follow a simple naming schema:
+Please adhere to the following naming schema:
 
 * `<topic hub>.haufe.io` points to the developer portal of a topic's API management solution. This is the URL the developers will use at design time of the consuming application
 * `api.<topic hub>.haufe.io` points to the API gateway of the topic's API management solution. This is the URL the consuming clients will use at runtime.
 
-Any new API mamagement solution should adher to this naming schema, wherever technically feasible and and wherever it makes sense (exceptions are to be discussed).
 
 #### Meta portal `apis.haufe.io`
 
@@ -139,9 +141,7 @@ The special string `%%Forwarded` will dynamically be replaced with a suitable `F
 As an integral part of a web (http(s) based) service, the API Management bits and pieces also need to be a part of the deployment process.
 
 #### Blue/Green Deployment - Backend Service Level
-
 tbd.
 
 #### Blue/Green Deployment - API Management Level
-
 tbd.

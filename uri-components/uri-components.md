@@ -25,11 +25,11 @@ The URI should include /vN with the major version (N) as a prefix. No major.mino
 
 [^1] See the following [brief overview of versioning methods](https://www.3scale.net/2016/06/api-versioning-methods-a-brief-reference/)
 
-Version is a single number and only to be incremented on ‘backward’ compatibility breaking. Adding fields or deprecating fileds are **NOT** breaking changes. API Clients need to be able to ignore additional elements. API Providers need to be able to use meaningful defaults for new fields not expected by existing clients.  
+Version is a single number and only to be incremented on ‘backward’ compatibility breaking. Adding fields or deprecating fileds are **NOT** breaking changes. API Clients need to be able to **ignore** additional elements. API Providers need to be able to use meaningful defaults for new fields not expected by existing clients.  
 
-Please stick to the following rules:
+Please stick to the following rule:
 
-In general do **NOT** increment the version of your API. Until you must. And it is really rare that you really must. Only increment on breaking changes Extending the API is not a breaking change. 
+> In general do **NOT** increment the version of your API. Until you must. And it is really rare that you must. Only increment on breaking changes. Extending the API is not a breaking change. 
 
 #####URI Template
 
@@ -63,7 +63,7 @@ Your rest endpoints normally end with a noun like
 
     {host}/user_management/v1/users
 
-There is no trailing slash. You CAN support a trailing slash. But it is not common. Do NOT support urls like {host}/user_management/v1/users/?queryparams. It is not valid!
+There is no trailing slash. You CAN support a trailing slash. But it is not common. Do NOT support urls like {host}/user_management/v1/users/?queryparams. This is not valid syntax!
 
 
  

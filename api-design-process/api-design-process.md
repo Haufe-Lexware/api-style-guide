@@ -19,7 +19,7 @@ Resources often contain child resources or reference other resources. In these c
  How you design your API around related resources can be determined based on a few questions. The answers to these questions will determine if your resources are independent, dependent, or associative:
 1. Can both resources exist without the other? Then we have an ***Independent*** resource2. Does one resource exist only when the other exists? Then we have a ***Dependent*** resource3. Does the relationship between resources require more state than just the links between them? Then we have an ***Associative*** resource
 #### Defining Resource LifecyclesOnce we have identified our RESTful API resources, it is time to start mapping them to our HTTP verbs. During the API Modelling Process, we were able to capture most activities using a specific list of actions: “list”, “clear”, “view”, etc. Depending on the verbs you commonly use during modeling, you will likely find that certain onces can be mapped directly to REST patterns.#### Mapping Response Codes For Success and Failure
-Please see [HTTP Status Codes](http-status-codes.md) for a more in depth discussion.#### Expanding Resources Through Hypermedia LinkingAs you move from resource identification, it is time to explore the links (relationships) each resource will provide. Resource links are just like links within a web page - they describe the options available for navigation. Links may be used for a variety of reasons:
+Please see [HTTP Status Codes](../http-status-codes/http-status-codes.md) for a more in depth discussion.#### Expanding Resources Through Hypermedia LinkingAs you move from resource identification, it is time to explore the links (relationships) each resource will provide. Resource links are just like links within a web page - they describe the options available for navigation. Links may be used for a variety of reasons:
 1. To inform clients about the actions available given the resource’s current state2. Provide hints to actions that are authorized for the current user 
 3. Allow clients to explore resource relationships
 
@@ -30,7 +30,7 @@ The following is a quick summary of Hypermedia Linking
 * ***Relationship Linking***: Resources should include links to a parent resource, children, or related resources as identified during the previous taxonomy step.
 * ***Additional Navigation Links***: Most commonly used for collection responses, where you may need to offer pagination links for next and previous pages, and for navigation to other areas of the API.
 
-Please see [Hypermedia and Rest](hypermedia-and-rest.md) for a more in depth discussion of Hypermedia.
+Please see [Hypermedia and Rest](../hypermedia-and-rest/hypermedia-and-rest.md) for a more in depth discussion of Hypermedia.
 
 ---
 

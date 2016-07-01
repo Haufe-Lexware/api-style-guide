@@ -13,7 +13,7 @@ Robustness Principle](http://en.wikipedia.org/wiki/Robustness_principle) (RFC 11
 
 > “Be liberal in what you accept, be conservative in what you send.” 
 
-The ability to extend service definitions after the initial release without affecting already deployed clients is key to preserve agility and evolvability of those services. For a more in-depth discussion regarding its applicability on API Design, please read the [Message Schema and Postel's Law](message-schema.md) chapter.
+The ability to extend service definitions after the initial release without affecting already deployed clients is key to preserve agility and evolvability of those services. For a more in-depth discussion regarding its applicability on API Design, please read the [Message Schema and Postel's Law](../message-schema/message-schema.md) chapter.
 
 Read the following to gain additional insight on the RESTful service architecture paradigm and general RESTful API design style:
 
