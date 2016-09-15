@@ -48,7 +48,7 @@ Refer to [Relationships and Sub-Resources](../relationships-and-sub-resources/re
 
 Should you use hyphens, underscores, or camelCase to delimit words in the URIs?
 
-There are many, many different articles and opinions about that. Finally we decided to go with underscores.
+There are many, many different articles and opinions about that. Finally we decided to go with underscores. This applies to URIs, field names, hypermedia labels and any other meta elements included in the response.
 
 > **Use underscores. Do not use acronyms. Use small caps.**
 
