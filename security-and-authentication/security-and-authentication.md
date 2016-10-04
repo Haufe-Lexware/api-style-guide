@@ -2,9 +2,9 @@
 
 ###Authentication
 
-Use the latest and greatest OAuth 2.0 or - for social login - the OpenID Connect standards. It means that Web or mobile apps that expose APIs don’t have to share passwords. It allows the API provider to revoke tokens for an individual user, for an entire app, without requiring the user to change their original password. This is critical if a mobile device is compromised or if a rogue app is discovered.
+OAuth 2.0 is the de facto standard for API security. OpenId Connect is simple identity layer on top of the OAuth 2.0 authorization framework to enable Clients to verify the identify of the End-User. This means that Web or mobile apps that expose APIs don’t have to share passwords. It allows the API provider to revoke tokens for an individual user, for an entire app, without requiring the user to change their original password. This is critical if a mobile device is compromised or if a rogue app is discovered.
 
-Above all, OAuth 2.0 will mean improved security and better end-user and consumer experiences with Web and mobile apps.
+Above all, OAuth 2.0 will mean improved security by dropping the use of signatures and cryptography and relies on TLS for securing data in transit, which makes it transport dependent which leads to a better end-user and consumer experiences with Web and mobile apps.  
 
 Don't do something *like* OAuth, but different. It will be frustrating for app developers if they can't use an OAuth library in their language because of your variation.
 
