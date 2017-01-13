@@ -38,7 +38,7 @@ In order to make all Haufe APIs searchable and discoverable, they have to be reg
 
 The portal at `apis.haufe.io` does not provide any means of subscribing to an API, but just makes sure the APIs which can be located at various API portals (or just inside API gateways as may be the case for internal services) can be found and evaluated for their fitness for a specific purpose.
 
-In order to achieve this kind of discoverability, it is mandatory for an API managed API to be registered with this API meta portal using its Swagger representation. **Swagge 2.0/OpenAPI is the minimum API documentation format**; a Swagger definition **must** be present, all other information which can and will be defined for an API is optional in terms of discoverability.
+In order to achieve this kind of discoverability, it is mandatory for an API managed API to be registered with this API meta portal using its Swagger representation. **Swagger 2.0/OpenAPI is the minimum API documentation format**; a Swagger definition **must** be present, all other information which can and will be defined for an API is optional in terms of discoverability.
 
 #### `haufe.io` Certificates
 

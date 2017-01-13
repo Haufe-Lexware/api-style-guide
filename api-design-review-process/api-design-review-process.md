@@ -3,7 +3,7 @@
 ### Why
 We believe in APIs and in the API Economy. We are just at the beginning of our journey to an API driven company. There is no clear roadmap how to reach our goal. For sure it will be ways in which we stumble, sometimes fail but hopefully succeed in the end.
 
-There will be pros and cons how to handle and apply the style guide to real projects. There are many things to learn and to share with another. We have to keep improving the style guide, review process, and tools to capture our evolving knowledge and experience. 
+There will be pros and cons how to handle and apply the style guide to real projects. There are many things to learn and to share with another. We have to keep improving the style guide, review process, and tools to capture our evolving knowledge and experience.
 
 To formalize the learning process we decided to establish the **API Design Review Process**. Each new or refactored API MUST be reviewed through this process.
 
@@ -54,7 +54,7 @@ We use the GitHub issue mechanism for a transparent communication during the rev
 - Improvement: Should be changed. Depends on the team
 - Question: For Questions/Discussions and clarifications
 
-Please use Github labels for ths classification.
+Please use Github labels for the classification.
 
 #### Time boxed reviews
 The review is time boxed. It starts at a given date and - more importantly - it ends at a predefined date. The outcome of the review is documented in the GitHub repo `README.md`.
@@ -64,20 +64,20 @@ After finishing the API review there will be some change requests for the API.
 Most of them might be easy to fix/change and the API designer should do that immediately during and after the review. Other changes may need more effort and planning how to address them.   
 
 The next steps and the the conclusion how to proceed with the change requests is written down in the **conclusion** section of the GitHub repo `README.md`.
-The implementation can start after finishig the review. 
+The implementation can start after finishig the review.
 
 #### Learnings from the review and feedback to the style guide
-After each review the API designer/team should provide a feedback issue in the 
+After each review the API designer/team should provide a feedback issue in the
 API style guide project and mark it with the label **feedback**.
 The feedback has to cover at least the topics
 
-- How helpful was the API style guide for your design process? 
-	- Which sections especially? 
+- How helpful was the API style guide for your design process?
+	- Which sections especially?
 	- What did you learn for future API designs?
-- How to improve the style guide itself? 
-	- Which information do you miss? 
+- How to improve the style guide itself?
+	- Which information do you miss?
 	- Which guideline do you not agree with?
-- How to improve the API review process itself? 
+- How to improve the API review process itself?
 	- What can we improve regarding tooling, planning etc.
 
 #### How to measure success for the API review

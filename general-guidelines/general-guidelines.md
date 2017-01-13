@@ -19,15 +19,14 @@ Each resource MUST make sense from the perspective of the API consumer. Beware o
 
 ### Do not implement API Management
 
-We have a list of appropriate API management solutions we like to standardize on. If our existing solutions and blueprints do not fit, we work with you to find one which does. Refer to (API Management)[api-management.md] for details.
+We have a list of appropriate API management solutions we like to standardize on. If our existing solutions and blueprints do not fit, we work with you to find one which does. Refer to [API Management](api-management.md) for details.
 
 ### Every API MUST be described using a formal API description language
 
-While we recognize the existence of various languages (RAML, Blueprint) we standardize on Swagger as the most commonly used language. API documentation has to be generated from its Swagger definition to ensure inherent consistency. Swagger is used to provide access to the API via API management tooling. 
+While we recognize the existence of various languages ([RAML](https://raml.org/), [API Blueprint](https://apiblueprint.org/)) we standardize on [Swagger](https://swagger.io) as the most commonly used language. API documentation has to be generated from its Swagger definition to ensure inherent consistency. Swagger is used to provide access to the API via API management tooling.
 
 Reserve time to create documentation. Use [Swagger](http://swagger.io/) to document. Refer to [Documentation](../documentation/documentation.md) for details.
 
 ### API clients MUST use an API Key
 
-Different SLA’s CAN be offered by the API provider. API clients are identified by API keys obtained from the API Portal. **No API access without a corresponding and valid API key**. (Exception for pubsub notification APIs which only contain the link to the resource but not the resource itself).
-	
+Different SLA’s CAN be offered by the API provider. API clients are identified by API keys obtained from the API Portal. **No API access without a corresponding and valid API key** (Exception for pubsub notification APIs which only contain the link to the resource but not the resource itself).
