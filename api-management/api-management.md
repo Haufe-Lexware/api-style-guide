@@ -56,7 +56,7 @@ We propose that the [OAuth2.0 Standards](https://tools.ietf.org/html/rfc6749) MU
 
 Instead, this is done in a decoupled way in a dedicated component: An Authorization Server. An Authorization Server has two distinct tasks:
 
-* Authenticate the end user against an indentity provider (this can be most anything, the Authorization Server may under special circumstances also implement the authentication itself; e.g. Haufe Atlantic, Google, Github, Facebook,...)
+* Authenticate the end user against an identity provider (this can be most anything, the Authorization Server may under special circumstances also implement the authentication itself; e.g. Haufe Atlantic, Google, Github, Facebook,...)
 * Authorize the end user for the API Usage by deciding on "scopes" (approx. rights), depending on the identity/roles/properties of the user; this is highly project specific and can usually not be delegated to a generic implementation
 
 After the user is authenticated and (possibly) authorized, an access token is issued to the API client, which then carries the information on user identity and scopes; how this is done technically is an implementation detail, but the main two techniques are:
