@@ -1,11 +1,11 @@
 # Haufe API style guide
 
-###Purpose
+### Purpose
 ---
 Great RESTful APIs look like they were designed by a single team. This promotes API adoption, reduces friction, and enables clients to use them properly. To build APIs that meet this standard, and to answer many common questions encountered along the way of RESTful API development, the Haufe-Lexware CTO team has created this comprehensive set of guidelines. We have shared it with you to inspire additional discussion and refinement within and among your teams, and contribute our learnings and suggestions to the tech community at large.
 
 
-###Usage
+### Usage
 ---
 The API style guide MUST be used when you create an API, refactor or extend an API, no exeptions. Existing APIs might be subject to adapt if there is business value in it.
 
