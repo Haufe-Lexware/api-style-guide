@@ -35,9 +35,9 @@
 ## Learning Journeys 
 
 * Paypal's API Journey: 
- * In [Part 1](https://www.infoq.com/articles/paypal-api-first-part1) we talk about how implementing an API-first transformation in a large organization is as much a people problem as a technical one, 
- * In [Part 2](https://www.infoq.com/articles/paypal-api-first-part2), we’ll go into how we used this infrastructure to help shape the API portfolio itself. A main goal of which was to establish clear boundaries between APIs that encourage decomposition of the monolith in a predictable, useful way., 
- * In [Part 3](https://www.infoq.com/articles/paypal-api-first-part3), we’ll explore the importance of program management to align the organization, market the concept, provide training, and create various incentives that encourage adoption: 
+	* In [Part 1](https://www.infoq.com/articles/paypal-api-first-part1) we talk about how implementing an API-first transformation in a large organization is as much a people problem as a technical one, 
+	* In [Part 2](https://www.infoq.com/articles/paypal-api-first-part2), we’ll go into how we used this infrastructure to help shape the API portfolio itself. A main goal of which was to establish clear boundaries between APIs that encourage decomposition of the monolith in a predictable, useful way., 
+	* In [Part 3](https://www.infoq.com/articles/paypal-api-first-part3), we’ll explore the importance of program management to align the organization, market the concept, provide training, and create various incentives that encourage adoption: 
 
 ## Further Reading
 
