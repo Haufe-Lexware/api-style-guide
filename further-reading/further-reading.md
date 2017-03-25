@@ -20,9 +20,9 @@
 
 ## Books
 
-* [A Practical Approach to API Design](https://leanpub.com/restful-api-design) - one of the best books on API design best practices
+* [A Practical Approach to API Design](https://leanpub.com/restful-api-design) - one of the best books on API design
 * [Microservice Architecture](http://shop.oreilly.com/product/0636920050308.do) - putting APIs into the Microservice context (complementary copy from CA [here](http://transform.ca.com/API-microservice-architecture-oreilly-book.html))
-* [APIs: A Strategy Guide](http://shop.oreilly.com/product/0636920021223.do) - good intro to API strategy)
+* [APIs: A Strategy Guide](http://shop.oreilly.com/product/0636920021223.do) - best intro to API strategy
 * [RESTful Web APIs](http://shop.oreilly.com/product/0636920028468.do) - good and practical intro to Hypermedia with examples
 * [The REST API Design Handbook](https://www.amazon.com/REST-API-Design-Handbook-ebook/dp/B00890OBFI) - very opinionated, but good API design practices
 * [RESTful Web Services Cookbook](http://shop.oreilly.com/product/9780596801694.do)
