@@ -30,7 +30,7 @@
 * [An introduction to APIs](https://zapier.com/learn/apis/) (from Zapier, free PDF)
 * [Getting Started with OAuth 2.0](http://shop.oreilly.com/product/0636920021810.do) - Good intro to OAuth concept
 
-## Howto
+## Learning Journeys 
 
 * Paypal's API Journey: 
  * In [Part 1](https://www.infoq.com/articles/paypal-api-first-part1) we talk about how implementing an API-first transformation in a large organization is as much a people problem as a technical one, 
