@@ -1,10 +1,12 @@
 ## Blogs and Websites
 
-* [API Stylebook] (http://apistylebook.com)
-* [API Evangelist](https://apievangelist.com/blog/)
-* [Nordic APIs](http://nordicapis.com/blog/)
-* [API Academy](http://www.apiacademy.co/#)
-* [Mike Ammundsen - Talks](http://mamund.site44.com/talks/)
+* [API Evangelist](https://apievangelist.com/blog/) - blog
+* [Nordic APIs](http://nordicapis.com/blog/) - blog
+* [API Academy](http://www.apiacademy.co/#) - blog
+* [API Stylebook](http://apistylebook.com) - aggregator
+* [Launchany](http://launchany.com/articles/) - blog
+* [Mike Ammundsen - Talks](http://mamund.site44.com/talks/) - presentations
+* [James Higginbotham - API Developer Weekly](http://launchany.com/subscribe/) - weekly email
 
 ## Conferences
 
@@ -12,7 +14,7 @@
 * [Nordic API Summits](http://nordicapis.com)
 * [API Days](http://www.apidays.io)
 * [API World](http://apiworld.co/conference/schedule/)
-* [Restfest](http://www.restfest.org) (Unconference)
+* [Restfest](http://www.restfest.org) (unconference organized by [Mike Ammundsen](https://twitter.com/mamund) and [Benjamin Young](https://twitter.com/bigbluehat))
 * [I love APIs](http://iloveapis.com) (from Apigee)
 * [API360](http://www.apiacademy.co/api360/) (from CA, formerly Layer 7)
 
