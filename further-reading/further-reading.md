@@ -39,7 +39,7 @@
  * In [Part 2](https://www.infoq.com/articles/paypal-api-first-part2), we’ll go into how we used this infrastructure to help shape the API portfolio itself. A main goal of which was to establish clear boundaries between APIs that encourage decomposition of the monolith in a predictable, useful way., 
  * In [Part 3](https://www.infoq.com/articles/paypal-api-first-part3), we’ll explore the importance of program management to align the organization, market the concept, provide training, and create various incentives that encourage adoption: 
 
-##Further Reading
+## Further Reading
 
 Additional information and guidance can be found in the following:
 
