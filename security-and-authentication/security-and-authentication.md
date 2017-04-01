@@ -8,6 +8,8 @@ Overall, OAuth 2.0 will mean improved security by dropping the use of signatures
 
 Don't do something *like* OAuth, but different. It will be frustrating for app developers if they can't use an OAuth library in their language because of your variation.
 
+For more information on Authentication and Authorization see the section on [API Management](../api-management/api-management.md); it contains information on specific scenarios where certain OAuth2.0 flows can and MUST be applied. API Management solutions can help implementing these scenarios in a more generic and decoupled way.
+
 ### SSL everywhere - All the time
 
 Always use SSL. No exceptions. Today, your web APIs can get accessed from anywhere where internet is given (like libraries, coffee shops, airports among others). Not all of these access points are secure. Many don't encrypt communications at all, allowing for easy eavesdropping or impersonation if authentication credentials are hijacked.
