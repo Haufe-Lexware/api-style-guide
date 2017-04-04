@@ -31,6 +31,7 @@
 * [API-driven DevOps](http://nordicapis.com/wp-content/uploads/api-driven-devops.pdf) (from Nordic APIs, free PDF)
 * [An introduction to APIs](https://zapier.com/learn/apis/) (from Zapier, free PDF)
 * [Getting Started with OAuth 2.0](http://shop.oreilly.com/product/0636920021810.do) - Good intro to OAuth concept
+* [API Design on the scale fo decades](http://nordicapis.com/api-ebooks/api-design-on-the-scale-of-decades/) (from Nordic API, free PDF)
 
 ## Learning Journeys 
 
