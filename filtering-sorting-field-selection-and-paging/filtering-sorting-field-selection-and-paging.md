@@ -3,7 +3,7 @@
 Use a unique query parameter for all fields or a query language for filtering.
 
 	GET /cars?color=red Returns a list of red cars
-	GET /cars?type=%van% Returns a list of cars whose type contains the 'van' word (Minivan, Cargo Van...)
+	GET /cars?type=%2Avan%2A Returns a list of cars whose type contains the 'van' word (Minivan, Cargo Van...). %2A is the encoded form of the * wildcard. 
 	GET /cars?seats<=2 Returns a list of cars with a maximum of 2 seast
 
 ### Time selection
