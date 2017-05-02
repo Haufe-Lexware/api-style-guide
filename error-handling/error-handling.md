@@ -69,7 +69,7 @@ or
 
 ### Error Response Format
 
-The examples given above implenment different [Hypermedia error response formats](http://nocarrier.co.uk/the-error-hypermedia-type/):
+The examples given above implement different [Hypermedia error response formats](http://nocarrier.co.uk/the-error-hypermedia-type/):
 
 * [vnd.error draft](https://github.com/blongden/vnd.error)
 * [RFC 7807](https://tools.ietf.org/html/rfc7807): Problem Details for HTTP APIs
@@ -80,4 +80,4 @@ Be aware that for security sensitive APIs like User Management the need to retur
 
 At the same time, nothing is more frustrating for a customer to try to create a matching password without knowing the password constrains. This is why in general one would only show the password policy during initial setup and during password change, but not in response to login failures. During login you would never distinguish between a wrong username or a right username and a wrong password. Both should return the exact same error as to not allow a more targeted attack. (Note: This is why there is usually only a single link to cover both forgotten passwords and usernames).
 
-When using either of the above mentioned error formats [vnd.error](https://github.com/blongden/vnd.error) or [RFC 7807](https://tools.ietf.org/html/rfc7807) we can indicate an error and provide a ‘help’ link with a human-readable description of the error. A client (with the appropriate sensibility to the security issues I describe above) can then decide to render the help link oder omit it. In this way the error description is decoupled from the actual client. Changes to the underlying  business logic (ie. password policy) and corresponding human readable error descripton are entirely contained within the API provider without impacting any existing API clients.
+When using either of the above mentioned error formats [vnd.error](https://github.com/blongden/vnd.error) or [RFC 7807](https://tools.ietf.org/html/rfc7807), we can indicate an error and provide a ‘help’ link with a human-readable description of the error. A client (with the appropriate sensibility to the security issues I describe above) can then decide to render the help link oder omit it. In this way the error description is decoupled from the actual client. Changes to the underlying  business logic (ie. password policy) and corresponding human readable error descripton are entirely contained within the API provider without impacting any existing API clients.
