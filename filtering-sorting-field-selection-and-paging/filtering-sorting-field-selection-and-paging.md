@@ -8,7 +8,7 @@ Use a unique query parameter for all fields or a query language for filtering.
 
 ### Time selection
 
-`start_time` or `{property_name}_after`, `end_time` or `{property_name}_before` query parameters should be provided if time selection is needed.
+`start_time` or `{property_name}_from`, `end_time` or `{property_name}_to` query parameters should be provided if time selection is needed.
 
 ### Sorting
 
