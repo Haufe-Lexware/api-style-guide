@@ -16,7 +16,7 @@ The main advantage of Azure APIm is that it's managed; the main drawback is that
 
 Running a production workload via Azure APIm requires the "Standard Tier" of Azure APIm, which can be quite costly (at around 500€/month) for smaller portals.
 
-#### wicked.haufe.io
+#### Haufe OSS API Management (Wicked)
 
 In contrast to the fully managed service Azure APIm, wicked.haufe.io is much more flexible in that it may run on any runtime which supports Docker (e.g. Docker Hosts, Docker Swarm, Kubernetes). But with flexibility also comes a price, and that's obviously that you need to operate it yourself.
 
@@ -24,7 +24,7 @@ A prerequisite to successfully running wicked.haufe.io in production is the avai
 
 A bonus on top of the flexibility of wicked is that it's built to tie in to deployment pipelines and to support CI/CD scenarios, also in terms of API Management, documentation and such. It's designed to support exactly those scenarios, the only offering to configuration is **configuration as code** (or in this case as `json`).
 
-At the [Github site of wicked.haufe.io](https://github.com/Haufe-Lexware/wicked.haufe.io), you can find much more documentation on the system.
+At [Gwicked.haufe.io](http://wicked.haufe.io), you can find much more documentation on the system.
 
 ### API Management Scenarios
 
