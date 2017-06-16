@@ -26,15 +26,7 @@
 ## Respresenting Resources
 * [Resources](resources/resources.md)
   * [Relationships and Sub-Resources](relationships-and-sub-resources/relationships-and-sub-resources.md)
-  * [Collection Resources](collection-resources/collection-resources.md)
-     * [Resource naming](collection-resources/collection-resources.md#resource-naming) 
-     * [Get List of resources](collection-resources/collection-resources.md#get-list-of-resources)
-     * [Read Single Resource](collection-resources/collection-resources.md#read-single-resource)
-     * [Update Single Ressource](collection-resources/collection-resources.md#update-single-ressource)
-     * [Update Partial Single Resource](collection-resources/collection-resources.md#update-partial-single-resource)
-     * [Delete Single Resource](collection-resources/collection-resources.md#delete-single-resource)
-     * [Create New Resource](collection-resources/collection-resources.md#create-new-resource)
-     * [Create New Resource - Consumer Supplied Identifier](collection-resources/collection-resources.md#create-new-resource---consumer-supplied-identifier) 
+  * [Resource Collections](collection-resources/collection-resources.md)
 * [Resource Schema and Postels Law](message-schema/message-schema.md)
   * [Resource Type Formatting](type-formatting/type-formatting.md)
 
@@ -44,14 +36,9 @@
   * [Azure API Management](api-management/api-management.md#azure-api-management)
      * [Wicked.haufe.io](api-management/api-management.md#wicked.haufe.io)
      * [API Management Scenarios](api-management/api-management.md#api-management-scenarios)
-   
   * [API Gateways](api-management/api-management.md#api-gateways)
      * [The `Forwarded` header](api-management/api-management.md#the--forwarded-header)
   * [API Portals](api-management/api-management.md#api-portals)
-     * [Haufe Search Portal](api-management/api-management.md#search-portal)
-     * [Haufe Service Hub](api-management/api-management.md#haufe-service-hub)
-     * [SSMP Service Hub](api-management/api-management.md#ssmp-service-hub)
-     * [Content Service Hub](api-management/api-management.md#content-service-hub)
   * [Automating API Deployments](api-management/api-management.md#automating-api-deployments)
      
 ## Appendix
