@@ -1,4 +1,4 @@
-## Message Schema and Postel's Law
+## Resource Schema and Postel's Law
 
 One of the key best practices for creating robust services is embodied in the so called [Postels Law (or Robustness Principle)](https://en.wikipedia.org/wiki/Robustness_principle). It states that any protocol implementation should
 
