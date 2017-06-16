@@ -33,11 +33,11 @@
 ## Managing APIs 
 * [Security and Authentication](security-and-authentication/security-and-authentication.md)
 * [API Management](api-management/api-management.md)
-   * [Azure API Management](api-management/api-management.md#azure-api-management)
-   * [Haufe OSS API Management](api-management/api-management.md#haufe-oss-api-management)
-   * [API Management Scenarios](api-management/api-management.md#api-management-scenarios)
+  * [Azure API Management](api-management/api-management.md#azure-api-management)
+  * [Haufe OSS API Management](api-management/api-management.md#haufe-oss-api-management)
+  * [API Management Scenarios](api-management/api-management.md#api-management-scenarios)
   * [API Gateways](api-management/api-management.md#api-gateways)
-     * [The `Forwarded` header](api-management/api-management.md#the--forwarded-header)
+     * [The `Forwarded` header](api-management/api-management.md#the-forwarded-header)
   * [API Portals](api-management/api-management.md#api-portals)
   * [Automating API Deployments](api-management/api-management.md#automating-api-deployments)
      

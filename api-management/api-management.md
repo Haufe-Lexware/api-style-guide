@@ -24,7 +24,7 @@ A prerequisite to successfully running wicked.haufe.io in production is the avai
 
 A bonus on top of the flexibility of wicked is that it's built to tie in to deployment pipelines and to support CI/CD scenarios, also in terms of API Management, documentation and such. It's designed to support exactly those scenarios, the only offering to configuration is **configuration as code** (or in this case as `json`).
 
-At [Gwicked.haufe.io](http://wicked.haufe.io), you can find much more documentation on the system.
+At [wicked.haufe.io](http://wicked.haufe.io), you can find much more documentation on the system.
 
 ### API Management Scenarios
 
