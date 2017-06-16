@@ -17,9 +17,9 @@ Each resource MUST make sense from the perspective of the API consumer. Beware o
 
 **We believe that APIs are products**. We will provide these APIs to other business units and partners. The future is unpredictable. The conviction that an API is only internally or in one Business unit of use, can rapidly change. Therefore APIs should be designed like external APIs. Last but not least we learn to design better APIs.
 
-### Do not implement API Management
+### Do not invent or implement API Management
 
-We have a list of appropriate API management solutions we like to standardize on. If our existing solutions and blueprints do not fit, we work with you to find one which does. Refer to [API Management](api-management.md) for details.
+We have a list of appropriate API management solutions we like to standardize on. If our existing solutions and blueprints do not fit, we work with you to find one which does. Refer to [API Management](../api-management/api-management.md) for details.
 
 ### Every API MUST be described using a formal API description language
 
