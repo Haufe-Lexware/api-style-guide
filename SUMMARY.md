@@ -29,7 +29,7 @@
   * [Collection Resources](collection-resources/collection-resources.md)
      * [Resource naming](collection-resources/collection-resources.md#resource-naming) 
      * [Get List of resources](collection-resources/collection-resources.md#get-list-of-resources)
-     * [Read Single Resource](collection-resource/collection-resources.md#read-single-resource)
+     * [Read Single Resource](collection-resources/collection-resources.md#read-single-resource)
      * [Update Single Ressource](collection-resources/collection-resources.md#update-single-ressource)
      * [Update Partial Single Resource](collection-resources/collection-resources.md#update-partial-single-resource)
      * [Delete Single Resource](collection-resources/collection-resources.md#delete-single-resource)
