@@ -21,7 +21,7 @@ At its core, HATEAOAS provides a way to interact with the REST API entirely thro
 
 HATEOAS links are contextual, so you only get the information that is relative to a specific request.
 
-Details about Hypermedia formats are described in [Response Formats](../response-format/response-format.md).
+Details about Hypermedia formats are described in [Hypermedia Formats](../response-format/response-format.md).
 
 [On Choosing a Hypermedia Format](http://sookocheff.com/post/api/on-choosing-a-hypermedia-format/) provides a good overview and guide of Hypermedia Formats.
 
