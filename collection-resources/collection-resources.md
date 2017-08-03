@@ -173,7 +173,7 @@ Deletes a single resource. In order to enable retries (typically patchy connecti
 
 ##### URI Template
 
-	DELETE /{version}/{namespace}/{resource}/{resource-id}
+	DELETE /{namespace}/{version}/{resource}/{resource-id}
 
 ##### Example Request
 
@@ -195,7 +195,7 @@ Hypermedia links provide an easy way to get the URL of the newly created resourc
 
 ##### URI Template
 
-	POST /{version}/{namespace}/{resource}
+	POST /{namespace}/{version}/{resource}
 
 ##### Example Request
 
