@@ -12,7 +12,7 @@ A resource is an object with a type, associated data, relationships to other res
 
 Resources can be grouped into **collections**. Each collection is homogeneous so that it contains only one type of resource, and unordered. Resources can also exist outside any collection. In this case, we refer to these resources as singleton resources. Collections are themselves resources as well.
 
-Collections can exist globally at the top level of an API, but can also be contained inside a single resource. In the latter case, we refer to these collections as sub-collections. Sub-collections are usually used to express some kind of “contained in” relationship. We go into more detail on this in [Relationships and Sub-Resources](../relationships-and-sub-resources.md).
+Collections can exist globally at the top level of an API, but can also be contained inside a single resource. In the latter case, we refer to these collections as sub-collections. Sub-collections are usually used to express some kind of “contained in” relationship. We go into more detail on this in [Relationships and Sub-Resources](../relationships-and-sub-resources/relationships-and-sub-resources.md).
 
 The diagram below illustrates the key concepts in a RESTful API.
 
