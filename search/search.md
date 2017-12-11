@@ -43,3 +43,16 @@ You are creating a search from the user's standpoint.  The implementation detail
 For long running searches it is a good solution to split the the search request into the POST request to create the search and a GET request to retrieve the search results.
 
 Otherwise, it is ok to deliver the search results in the response of the POST call. This solution is more convenient for the client.
+
+### Empty Result Sets
+
+Typically, when a search returns any results, the status code will be `200 OK` and the body of the response will contain a list of found items. 
+
+But in case a search does **not** yield any results, there are two different ways to handle this situation:
+
+1. HTTP status code is `200 OK` and the response body **MUST** be an empty list, e.g. `[]` in JSON  
+2. HTTP status code is `204 NO CONTENT` and the response body **MUST** be empty
+
+The first solution is preferred as the resulting interface (a list) is the same as with a non-empty result so no special case handling has to be implemented when parsing the response body. 
+
+Empty search results **MUST NOT** make use of the HTTP status code `404 NOT FOUND` since that would indicate that the searched resource *itself* does not exist.
