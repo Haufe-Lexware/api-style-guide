@@ -67,6 +67,7 @@ The chapters are:
 - [Error handling](error-handling/error-handling.md)
 - [HTTP Status Codes](http-status-codes/http-status-codes.md)
 - [Caching](caching/caching.md)
+- [Correlation-Id](correlation-id/correlation-id.md)
 - [API Management](api-management/api-management.md)
 - [FAQ](faq/faq.md)
 - [Further Reading](further-reading/further-reading.md)
