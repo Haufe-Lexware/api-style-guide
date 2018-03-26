@@ -60,6 +60,7 @@ Additional information and guidance can be found in the following:
 * [http://sookocheff.com/posts/2014-03-11-on-choosing-a-hypermedia-format/](http://sookocheff.com/posts/2014-03-11-on-choosing-a-hypermedia-format/)
 * [https://tools.ietf.org/html/rfc7386](https://tools.ietf.org/html/rfc7386)
 * [http://rawgit.com/uber-hypermedia/specification/master/uber-hypermedia.html](http://rawgit.com/uber-hypermedia/specification/master/uber-hypermedia.html)
+* [https://github.com/NationalBankBelgium/REST-API-Design-Guide](https://github.com/NationalBankBelgium/REST-API-Design-Guide)
 
 
  
