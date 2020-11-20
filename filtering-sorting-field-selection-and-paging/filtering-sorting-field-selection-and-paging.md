@@ -30,6 +30,11 @@ Mobile clients display just a few attributes in a list. They don’t need all at
 
 	GET /cars?fields=manufacturer,model,id,color
 
+Nevertheless, you may choose that some fields would always be sent along with the requested fields, in the response payload. Like the `id` for example.
+
+If one of the fields requested does not exist, a `400 Bad Request` should be returned.
+
+As explained in the [Authorization](../authorization/authorization.md) chapter, in case the field requested should not be accessible to the calling user, a `403 Forbidden` should be returned. 
 
 ### Paging
 

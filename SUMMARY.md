@@ -32,6 +32,7 @@
 
 ## Managing APIs 
 * [Security and Authentication](security-and-authentication/security-and-authentication.md)
+  * [Authorization](authorization/authorization.md)
 * [API Management](api-management/api-management.md)
   * [Azure API Management](api-management/api-management.md#azure-api-management)
   * [Haufe OSS API Management](api-management/api-management.md#haufe-oss-api-management)
