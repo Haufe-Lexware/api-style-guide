@@ -31,7 +31,7 @@ Please stick to the following rule:
 
 > In general do **NOT** increment the version of your API. Until you must. And it is really rare that you must. Only increment on breaking changes. Extending the API is not a breaking change.
 
-#####URI Template
+##### URI Template
 
 	/{namespace}/v{version}/
 
