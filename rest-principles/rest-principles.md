@@ -84,7 +84,7 @@ Refer to [Error handling](../error-handling/error-handling.md) for details.
 
 There are some reasons why you have to consider to use Caching
 
-- improve Speed
+- improve speed
 - reduce latency
 - reduce server load
 - reduce network traffic
