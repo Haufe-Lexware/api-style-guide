@@ -8,10 +8,10 @@ It focuses on the idea of gracefully adapting to communication that doesn't conf
 
 The ability to extend service definitions after the initial release without affecting already deployed clients is key to preserve agility and evolvability of those services. Well designed message schemas play a key part in either enabling or hindering a development team in evolving the service in the future.
 
-Unfortunatel,y message schemas tend to be used for two different purposes at the same time>
+Unfortunately message schemas tend to be used for two different purposes at the same time.
 
-1. for message-level security and
-2. as message-level contract.
+1. for message-level security
+2. as message-level contract
 
 Designing a schema for (1) results in strongly typed message structures, while designing it for (2) leads to the use of schema for auto-generated client code.
 
