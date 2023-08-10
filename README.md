@@ -30,7 +30,7 @@ The [API Design Review Process](api-design-review-process/api-design-review-proc
 ---
 
 #### Most important chapters
-Please read the bold chapters beow. These chapters describe the intent, mindset and process how we want to design an API.
+Please read the bold chapters below. These chapters describe the intent, mindset and process how we want to design an API.
 
 Each section contains links to the chapters with more details.
 
